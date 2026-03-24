@@ -25,5 +25,9 @@ index=main EventCode=4625 | stats count by Account_Name | where count > 3
 - `Incident_Report_Brute_Force_Detection.docx` — Full incident report
 - `screenshots/` — Evidence from Splunk
 
+## MITRE ATT&CK Mapping
+- Technique: T1110 — Brute Force
+- Tactic: Credential Access
+
 ## Skills Demonstrated
 Splunk, SIEM, Threat Detection, SPL, Windows Event Logs, Incident Response
